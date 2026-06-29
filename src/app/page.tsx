@@ -11,7 +11,9 @@ export default function Home() {
       <main className="site-shell">
         <header className="topbar">
           <div className="brand-lockup" aria-label="Identiti Portal Digital USTP Manjung">
-            <span className="brand-monogram" aria-hidden="true">PD</span>
+            <span className="brand-monogram" aria-hidden="true">
+              <Image src="/ustp-logo.png" alt="" width={42} height={42} priority />
+            </span>
             <span>
               <strong>USTP MANJUNG</strong>
               <small>PORTAL DIGITAL</small>
