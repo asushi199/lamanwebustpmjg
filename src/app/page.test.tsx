@@ -19,15 +19,17 @@ describe("Portal Digital USTP Manjung", () => {
     ).toBeInTheDocument();
   });
 
-  it("renders exactly three accessible service links", () => {
+  it("renders exactly five accessible service links", () => {
     render(<Home />);
 
     const links = screen.getAllByRole("link", { name: /Buka .* dalam tab ini/ });
-    expect(links).toHaveLength(3);
+    expect(links).toHaveLength(5);
     expect(links.map((link) => link.getAttribute("href"))).toEqual([
       "https://willowy-empanada-6b9e40.netlify.app/",
       "https://datagpmictdelima.vercel.app/",
       "https://pkgtempahanbilik.vercel.app/",
+      "https://datastudio.google.com/reporting/82432d2f-3362-4e70-9fc4-44a1adb1a36b/page/JbWhE",
+      "https://datastudio.google.com/reporting/97c54e64-01ea-495c-be82-300adf618bc6/page/JbWhE",
     ]);
   });
 

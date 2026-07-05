@@ -1,5 +1,6 @@
 # Project Guidance
 
+- **与用户沟通**：一律使用简体中文（见 `.cursor/rules/communication-zh.mdc`）。
 - Semua teks awam hendaklah menggunakan Bahasa Melayu rasmi.
 - Kekalkan portal sebagai pintu masuk ringan; jangan gabungkan pangkalan data atau log masuk sistem sasaran.
 - Semua URL perkhidmatan mesti ditakrifkan sekali sahaja dalam `src/lib/portal-data.ts`.

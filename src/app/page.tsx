@@ -40,7 +40,7 @@ export default function Home() {
               <span aria-hidden="true">↓</span>
             </a>
             <div className="hero-metrics" aria-label="Ringkasan portal">
-              <div><strong>03</strong><span>SISTEM DIGITAL</span></div>
+              <div><strong>05</strong><span>SISTEM DIGITAL</span></div>
               <div><strong>05</strong><span>PKG DAERAH</span></div>
               <div><strong>01</strong><span>PINTU MASUK</span></div>
             </div>
@@ -69,7 +69,7 @@ export default function Home() {
           <div className="section-heading">
             <div>
               <span className="section-index">{"// 01 — PERKHIDMATAN"}</span>
-              <h2>Satu portal, tiga laluan kerja.</h2>
+              <h2>Satu portal, lima laluan kerja.</h2>
             </div>
             <p>Pilih sistem yang diperlukan untuk meneruskan urusan anda.</p>
           </div>

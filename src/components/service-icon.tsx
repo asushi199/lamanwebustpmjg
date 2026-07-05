@@ -22,6 +22,15 @@ export function ServiceIcon({ icon }: Pick<PortalService, "icon">) {
     );
   }
 
+  if (icon === "chart") {
+    return (
+      <svg viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M6 26V14M13 26V8M20 26V18M27 26V11" />
+        <path d="M4 26h24" />
+      </svg>
+    );
+  }
+
   return (
     <svg viewBox="0 0 32 32" aria-hidden="true">
       <circle cx="16" cy="16" r="3" />

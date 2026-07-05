@@ -4,7 +4,7 @@ export type PortalService = {
   description: string;
   url: string;
   accent: string;
-  icon: "radar" | "directory" | "calendar";
+  icon: "radar" | "directory" | "calendar" | "chart";
 };
 
 export const portalServices: PortalService[] = [
@@ -34,5 +34,23 @@ export const portalServices: PortalService[] = [
     url: "https://pkgtempahanbilik.vercel.app/",
     accent: "#FFB84D",
     icon: "calendar",
+  },
+  {
+    id: "pelaporan-pss",
+    title: "Dashboard Pelaporan PSS",
+    description:
+      "Paparan interaktif laporan dan analitik PSS Daerah Manjung.",
+    url: "https://datastudio.google.com/reporting/82432d2f-3362-4e70-9fc4-44a1adb1a36b/page/JbWhE",
+    accent: "#B48CFF",
+    icon: "chart",
+  },
+  {
+    id: "pelaporan-dpd",
+    title: "Dashboard Pelaporan DPD",
+    description:
+      "Paparan interaktif laporan dan analitik Pejabat Pendidikan Daerah Manjung.",
+    url: "https://datastudio.google.com/reporting/97c54e64-01ea-495c-be82-300adf618bc6/page/JbWhE",
+    accent: "#FF7DA8",
+    icon: "chart",
   },
 ];

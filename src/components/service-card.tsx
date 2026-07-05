@@ -13,6 +13,8 @@ const categoryLabels: Record<PortalService["id"], string> = {
   osc: "PUSAT DATA",
   direktori: "DIREKTORI",
   tempahan: "TEMPAHAN",
+  "pelaporan-pss": "PELAPORAN PSS",
+  "pelaporan-dpd": "PELAPORAN DPD",
 };
 
 export function ServiceCard({ service, index }: ServiceCardProps) {
